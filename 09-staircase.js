@@ -1,13 +1,13 @@
-function plusMinus(arr) {
+function staircase(n) {
   let array = [];
-  for (let index = 0; index < arr; index += 1) {
-    array.push(" ".repeat(arr - index - 1) + '#'.repeat(index + 1))
+  for (let index = 0; index < n; index += 1) {
+    array.push(" ".repeat(n - index - 1) + '#'.repeat(index + 1))
   } for (const entry of array) {
     console.log(entry);
   }
 }
 
-plusMinus(5);
+staircase(5);
 
 // ---------------- REFERÊNCIAS -----------------
 
